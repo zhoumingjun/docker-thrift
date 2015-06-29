@@ -8,5 +8,4 @@ RUN git clone https://github.com/apache/thrift.git /opt/thrift && \
     ./bootstrap.sh && \
     ./configure && \
     make && \
-    make install && \
     cp /opt/thrift/lib/lua/.libs/* /usr/local/lib
